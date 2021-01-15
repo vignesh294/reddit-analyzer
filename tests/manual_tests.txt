@@ -1,0 +1,70 @@
+python reddit_analyzer.py -mine queensuniversity 10.01.2021 11.01.2021 3
+python reddit_analyzer.py -mine emacs 10.01.2021 11.01.2021 3
+
+python reddit_analyzer.py -plot queensuniversity emacs 10.01.2021 11.01.2021 1
+python reddit_analyzer.py -plot queensuniversity emacs 10.01.2021 11.01.2021 2
+python reddit_analyzer.py -plot queensuniversity emacs 10.01.2021 11.01.2021 3
+python reddit_analyzer.py -plot queensuniversity emacs 10.01.2021 11.01.2021 4
+python reddit_analyzer.py -plot queensuniversity emacs 10.01.2021 11.01.2021 5
+
+python reddit_analyzer.py -analyze -bykeywords -mine covid,corona,covid-19,coronovirus,rona,sars-cov-2 queensuniversity emacs 10.01.2021 11.01.2021
+
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,rona,sars-cov-2 queensuniversity emacs 10.01.2021 11.01.2021 1
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,rona,sars-cov-2 queensuniversity emacs 10.01.2021 11.01.2021 2
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,rona,sars-cov-2 queensuniversity emacs 10.01.2021 11.01.2021 3
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,rona,sars-cov-2 queensuniversity emacs 10.01.2021 11.01.2021 4
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,rona,sars-cov-2 queensuniversity emacs 10.01.2021 11.01.2021 5
+
+---
+
+python reddit_analyzer.py -mine queensuniversity 15.09.2020 15.12.2020  1000
+python reddit_analyzer.py -mine Concordia 15.09.2020 15.12.2020 1000
+
+python reddit_analyzer.py -plot queensuniversity Concordia 15.09.2020 15.12.2020 1
+python reddit_analyzer.py -plot queensuniversity Concordia 15.09.2020 15.12.2020 2
+python reddit_analyzer.py -plot queensuniversity Concordia 15.09.2020 15.12.2020 3
+python reddit_analyzer.py -plot queensuniversity Concordia 15.09.2020 15.12.2020 4
+python reddit_analyzer.py -plot queensuniversity Concordia 15.09.2020 15.12.2020 5
+
+python reddit_analyzer.py -analyze -bykeywords -mine covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity Concordia 15.09.2020 15.12.2020
+
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity Concordia 15.09.2020 15.12.2020 1
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity Concordia 15.09.2020 15.12.2020 2
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity Concordia 15.09.2020 15.12.2020 3
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity Concordia 15.09.2020 15.12.2020 4
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity Concordia 15.09.2020 15.12.2020 5
+
+python reddit_analyzer.py -analyze -bykeywords -mine online,remote queensuniversity Concordia 15.09.2020 15.12.2020
+
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity Concordia 15.09.2020 15.12.2020 1
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity Concordia 15.09.2020 15.12.2020 2
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity Concordia 15.09.2020 15.12.2020 3
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity Concordia 15.09.2020 15.12.2020 4
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity Concordia 15.09.2020 15.12.2020 5
+
+---
+
+python reddit_analyzer.py -mine queensuniversity 15.09.2020 15.12.2020  1000
+python reddit_analyzer.py -mine mcgill 15.09.2020 15.12.2020 1000
+
+python reddit_analyzer.py -plot queensuniversity mcgill 15.09.2020 15.12.2020 1
+python reddit_analyzer.py -plot queensuniversity mcgill 15.09.2020 15.12.2020 2
+python reddit_analyzer.py -plot queensuniversity mcgill 15.09.2020 15.12.2020 3
+python reddit_analyzer.py -plot queensuniversity mcgill 15.09.2020 15.12.2020 4
+python reddit_analyzer.py -plot queensuniversity mcgill 15.09.2020 15.12.2020 5
+
+python reddit_analyzer.py -analyze -bykeywords -mine covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity mcgill 15.09.2020 15.12.2020
+
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity mcgill 15.09.2020 15.12.2020 1
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity mcgill 15.09.2020 15.12.2020 2
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity mcgill 15.09.2020 15.12.2020 3
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity mcgill 15.09.2020 15.12.2020 4
+python reddit_analyzer.py -analyze -bykeywords -plot covid,corona,covid-19,coronovirus,virus,Corona,Coronavirus,lockdown,rona,sars-cov-2,Covid-19 queensuniversity mcgill 15.09.2020 15.12.2020 5
+
+python reddit_analyzer.py -analyze -bykeywords -mine online,remote queensuniversity mcgill 15.09.2020 15.12.2020
+
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity mcgill 15.09.2020 15.12.2020 1
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity mcgill 15.09.2020 15.12.2020 2
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity mcgill 15.09.2020 15.12.2020 3
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity mcgill 15.09.2020 15.12.2020 4
+python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity mcgill 15.09.2020 15.12.2020 5
