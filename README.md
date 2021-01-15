@@ -31,7 +31,6 @@ Please follow this pattern `python reddit_analyzer.py [mode] [mode specific args
 It can be run in 3 modes:
 1. Mine:
 `python reddit_analyzer.py -mine subreddit after_date before_date limit`: Fetch `limit` number of posts in the `subreddit` from `before_date` to `after_date` and calculate their metrics, store as csv files in the `datasets` folder.
-
 Examples: 
     `python reddit_analyzer.py -mine queensuniversity 30.09.2020 10.01.2021 500`
     `python reddit_analyzer.py -mine Concordia 30.09.2020 10.01.2021 500`
@@ -39,14 +38,11 @@ Examples:
 `python reddit_analyzer.py -plot subreddit1 subreddit2 after_date before_date metric`: Plot the graphs using the csv files in `datasets` which were generated for posts `before_date` to `after_date` for `subreddit1` and `subreddit2` for a `metric`.
 For the `metric` field, use `1` for Subjectivity, `2` for FollowUps, `3` for Polarity, `4` for Popularity, and `5` for Promotion.
 Ensure datasets are generated using the `mine` mode for the timeline and for the sureddits mentioned in this, before running this mode.
-
 Example: `python reddit_analyzer.py -plot queensuniversity Concordia 30.09.2020 10.01.2021 2`
 3. Analyze
 The case analysis supported right now is the impact of certain keywords on the metrics.
 a. `python reddit_analyzer.py -analyze -bykeywords -mine keywords subreddit1 subreddit2 after_date before_date`: Classify which of the posts generated in mode 1 have atleast one of the comma separated `keywords` in title or body of the posts.
-
 Example: `python reddit_analyzer.py -analyze -bykeywords -mine online,remote queensuniversity Concordia 30.09.2020 10.01.2021`
 b. `python reddit_analyzer.py -analyze -bykeywords -plot keywords subreddit1 subreddit2 after_date before_date metric`: Plot the `metric` for the data generated in 3a.
 For the `metric` field, use `1` for Subjectivity, `2` for FollowUps, `3` for Polarity, `4` for Popularity, and `5` for Promotion.
-
 Example: `python reddit_analyzer.py -analyze -bykeywords -plot online,remote queensuniversity Concordia 30.09.2020 10.01.2021 3`
